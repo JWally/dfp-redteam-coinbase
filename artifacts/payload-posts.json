@@ -1,0 +1,75 @@
+{
+  "posts": [
+    {
+      "url": "https://exceptions.coinbase.com/sentry/api/4509158375817216/envelope/?sentry_version=7&sentry_key=49c18eee427e5749efe688d0baece206",
+      "method": "POST",
+      "postData": "{\"sent_at\":\"2026-10-31T13:14:07.490Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"9.45.0\"},\"dsn\":\"https://49c18eee427e5749efe688d0baece206@exceptions.coinbase.com/sentry/4509158375817216\"}\n{\"type\":\"session\"}\n{\"sid\":\"bbbfedc9d3ec4cbaa51adcbdc7cd7c1d\",\"init\":true,\"started\":\"2026-10-31T13:14:07.490Z\",\"timestamp\":\"2026-10-31T13:14:07.490Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"fe230ce0a9afae1d1f38486be8d5d540604c51a9\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\"}}"
+    },
+    {
+      "url": "https://exceptions.coinbase.com/sentry/api/4509158375817216/envelope/?sentry_version=7&sentry_key=49c18eee427e5749efe688d0baece206",
+      "method": "POST",
+      "postData": "{\"sent_at\":\"2026-10-31T13:14:07.492Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"9.45.0\"},\"dsn\":\"https://49c18eee427e5749efe688d0baece206@exceptions.coinbase.com/sentry/4509158375817216\"}\n{\"type\":\"session\"}\n{\"sid\":\"bbbfedc9d3ec4cbaa51adcbdc7cd7c1d\",\"init\":false,\"started\":\"2026-10-31T13:14:07.490Z\",\"timestamp\":\"2026-10-31T13:14:07.492Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"fe230ce0a9afae1d1f38486be8d5d540604c51a9\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36\"}}"
+    },
+    {
+      "url": "https://as.coinbase.com/amp",
+      "method": "POST",
+      "postData": ""
+    },
+    {
+      "url": "https://as.coinbase.com/metrics",
+      "method": "POST",
+      "postData": "{\"metrics\":[{\"metric_name\":\"kill_switch_initialized\",\"page_path\":\"/\",\"value\":1,\"tags\":{\"authed\":\"false\",\"platform\":\"web\",\"release_stage\":\"production\",\"is_low_end_device\":false,\"is_low_end_experience\":false,\"cds_version\":\"7.x\",\"locale\":\"en\",\"deviceClass\":\"unknown\",\"user_tier\":null,\"page_key\":\"homepage\",\"project_name\":\"consumer\",\"version_name\":\"fe230ce0a9afae1d1f38486be8d5d540604c51a9\"},\"type\":\"count\"},{\"metric_name\":\"perf_redirect_time\",\"page_path\":\"/\",\"value\":0,\"tags\":{\"authed\":\"false\",\"platform\":\"web\",\"release_stage\":\"production\",\"is_low_end_device\":false,\"is_low_end_experience\":false,\"page_key\":\"homepage\",\"save_data\":false,\"service_worker\":\"supported\",\"is_perf_metric\":true,\"cds_version\":\"7.x\",\"locale\":\"en\",\"deviceClass\":\"unknown\",\"user_tier\":null,\"project_name\":\"consumer\",\"version_name\":\"fe230ce0a9afae1d1f38486be8d5d540604c51a9\"},\"type\":\"histogram\"},{\"metric_name\":\"perf_web_vitals_fcp_good\",\"page_path\":\"/\",\"value\":1,\"tags\":{\"authed\":\"false\",\"platform\":\"web\",\"release_stage\":\"production\",\"is_low_end_device\":false,\"is_low_end_experience\":false,\"page_key\":\"homepage\",\"save_data\":false,\"service_worker\":\"supported\",\"is_perf_metric\":true,\"cds_version\":\"7.x\",\"locale\":\"en\",\"deviceClass\":\"u"
+    },
+    {
+      "url": "https://as.coinbase.com/track-exposures",
+      "method": "POST",
+      "postData": "[{\"test_name\":\"t0020_6d6c418e\",\"group_name\":\"treatment\",\"subject_id\":\"116d33bc-fa15-4098-bda1-fc5c8f603702\",\"exposed_at\":1793452447961,\"subject_type\":\"device\",\"platform\":\"web\"}]"
+    },
+    {
+      "url": "https://as.coinbase.com/amp",
+      "method": "POST",
+      "postData": "e=%5B%7B%22device_id%22%3A%22116d33bc-fa15-4098-bda1-fc5c8f603702%22%2C%22user_id%22%3Anull%2C%22timestamp%22%3A1793452447962%2C%22event_id%22%3A6%2C%22session_id%22%3A1793452447646%2C%22event_type%22%3A%22split_test_device_exposed%22%2C%22version_name%22%3A%22fe230ce0a9afae1d1f38486be8d5d540604c51a9%22%2C%22platform%22%3A%22web%22%2C%22os_name%22%3A%22Chrome%22%2C%22os_version%22%3A%22151%22%2C%22device_model%22%3A%22Linux%22%2C%22device_manufacturer%22%3Anull%2C%22language%22%3A%22en%22%2C%22event_properties%22%3A%7B%22action%22%3A%22measurement%22%2C%22deviceId%22%3A%22116d33bc-fa15-4098-bda1-fc5c8f603702%22%2C%22group%22%3A%22treatment%22%2C%22test%22%3A%22t0020_6d6c418e%22%2C%22user_agent%22%3A%22Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F151.0.0.0+Safari%2F537.36%22%2C%22auth%22%3A0%2C%22component_type%22%3A%22page%22%2C%22platform%22%3A%22web%22%2C%22project_name%22%3A%22consumer%22%2C%22locale%22%3A%22en%22%2C%22session_lcc_id%22%3Anull%2C%22time_start%22%3A1793452447479%2C%22page_key%22%3A%22homepage%22%2C%22page_path%22%3A%22%2F%22%2C%22prev_page_key%22%3A%22%22%2C%22prev_page_path%22%3A%22%22%2C%22cds_version%22%3A%227"
+    },
+    {
+      "url": "https://as.coinbase.com/track-exposures",
+      "method": "POST",
+      "postData": "[{\"test_name\":\"t0043_6f1e98c0\",\"group_name\":\"treatment\",\"subject_id\":\"116d33bc-fa15-4098-bda1-fc5c8f603702\",\"exposed_at\":1793452448326,\"subject_type\":\"device\",\"platform\":\"web\"}]"
+    },
+    {
+      "url": "https://as.coinbase.com/amp",
+      "method": "POST",
+      "postData": "e=%5B%7B%22device_id%22%3A%22116d33bc-fa15-4098-bda1-fc5c8f603702%22%2C%22user_id%22%3Anull%2C%22timestamp%22%3A1793452448328%2C%22event_id%22%3A7%2C%22session_id%22%3A1793452447646%2C%22event_type%22%3A%22split_test_device_exposed%22%2C%22version_name%22%3A%22fe230ce0a9afae1d1f38486be8d5d540604c51a9%22%2C%22platform%22%3A%22web%22%2C%22os_name%22%3A%22Chrome%22%2C%22os_version%22%3A%22151%22%2C%22device_model%22%3A%22Linux%22%2C%22device_manufacturer%22%3Anull%2C%22language%22%3A%22en%22%2C%22event_properties%22%3A%7B%22action%22%3A%22measurement%22%2C%22deviceId%22%3A%22116d33bc-fa15-4098-bda1-fc5c8f603702%22%2C%22group%22%3A%22treatment%22%2C%22test%22%3A%22t0043_6f1e98c0%22%2C%22user_agent%22%3A%22Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F151.0.0.0+Safari%2F537.36%22%2C%22auth%22%3A0%2C%22component_type%22%3A%22page%22%2C%22platform%22%3A%22web%22%2C%22project_name%22%3A%22consumer%22%2C%22locale%22%3A%22en%22%2C%22session_lcc_id%22%3Anull%2C%22time_start%22%3A1793452447479%2C%22page_key%22%3A%22homepage%22%2C%22page_path%22%3A%22%2F%22%2C%22prev_page_key%22%3A%22%22%2C%22prev_page_path%22%3A%22%22%2C%22cds_version%22%3A%227"
+    },
+    {
+      "url": "https://as.coinbase.com/amp",
+      "method": "POST",
+      "postData": ""
+    },
+    {
+      "url": "https://as.coinbase.com/amp",
+      "method": "POST",
+      "postData": ""
+    },
+    {
+      "url": "https://as.coinbase.com/amp",
+      "method": "POST",
+      "postData": ""
+    },
+    {
+      "url": "https://as.coinbase.com/amp",
+      "method": "POST",
+      "postData": "e=%5B%7B%22device_id%22%3A%22116d33bc-fa15-4098-bda1-fc5c8f603702%22%2C%22user_id%22%3Anull%2C%22timestamp%22%3A1793452448495%2C%22event_id%22%3A23%2C%22session_id%22%3A1793452447646%2C%22event_type%22%3A%22google_one_tap_display%22%2C%22version_name%22%3A%22fe230ce0a9afae1d1f38486be8d5d540604c51a9%22%2C%22platform%22%3A%22web%22%2C%22os_name%22%3A%22Chrome%22%2C%22os_version%22%3A%22151%22%2C%22device_model%22%3A%22Linux%22%2C%22device_manufacturer%22%3Anull%2C%22language%22%3A%22en%22%2C%22event_properties%22%3A%7B%22action%22%3A%22render%22%2C%22auth%22%3A0%2C%22component_type%22%3A%22modal%22%2C%22platform%22%3A%22web%22%2C%22project_name%22%3A%22consumer%22%2C%22locale%22%3A%22en%22%2C%22session_lcc_id%22%3Anull%2C%22time_start%22%3A1793452447479%2C%22page_key%22%3A%22homepage%22%2C%22page_path%22%3A%22%2F%22%2C%22prev_page_key%22%3A%22%22%2C%22prev_page_path%22%3A%22%22%2C%22cds_version%22%3A%227.x%22%2C%22is_low_end_device%22%3Afalse%2C%22is_low_end_experience%22%3Afalse%2C%22ujs%22%3A%5B%22ujs_load_homepage_screen%22%5D%2C%22has_double_fired%22%3Afalse%2C%22session_uuid%22%3A%22170ccf0f-7054-4ca0-9ed0-fb6103aa8ae4%22%2C%22height%22%3A769%2C%22width%22%3A1236%2C%22release_st"
+    },
+    {
+      "url": "https://as.coinbase.com/metrics",
+      "method": "POST",
+      "postData": "{\"metrics\":[{\"metric_name\":\"boundary_render\",\"page_path\":\"/\",\"value\":1,\"tags\":{\"authed\":\"false\",\"platform\":\"web\",\"release_stage\":\"production\",\"is_low_end_device\":false,\"is_low_end_experience\":false,\"owner\":\"infra\",\"cds_version\":\"7.x\",\"locale\":\"en\",\"deviceClass\":\"unknown\",\"user_tier\":null,\"page_key\":\"homepage\",\"project_name\":\"consumer\",\"version_name\":\"fe230ce0a9afae1d1f38486be8d5d540604c51a9\"},\"type\":\"count\"},{\"metric_name\":\"route_render\",\"page_path\":\"/\",\"value\":1,\"tags\":{\"authed\":\"false\",\"platform\":\"web\",\"release_stage\":\"production\",\"is_low_end_device\":false,\"is_low_end_experience\":false,\"path\":\"/\",\"cds_version\":\"7.x\",\"locale\":\"en\",\"deviceClass\":\"unknown\",\"user_tier\":null,\"page_key\":\"homepage\",\"project_name\":\"consumer\",\"version_name\":\"fe230ce0a9afae1d1f38486be8d5d540604c51a9\"},\"type\":\"count\"},{\"metric_name\":\"boundary_render\",\"page_path\":\"/\",\"value\":1,\"tags\":{\"authed\":\"false\",\"platform\":\"web\",\"release_stage\":\"production\",\"is_low_end_device\":false,\"is_low_end_experience\":false,\"owner\":\"home\",\"cds_version\":\"7.x\",\"ujs\":[\"ujs_load_homepage_screen\"],\"locale\":\"en\",\"deviceClass\":\"unknown\",\"user_tier\":null,\"page_key\":\"homepage\",\"project_name\":\"consumer\",\"version_name\":\"fe230ce0a9afae1d1f384"
+    },
+    {
+      "url": "https://as.coinbase.com/amp",
+      "method": "POST",
+      "postData": ""
+    }
+  ],
+  "bodies": []
+}
