@@ -1,0 +1,318 @@
+{
+  "state": {
+    "title": "Coinbase Exchange",
+    "fpGlobals": [
+      "devicePixelRatio",
+      "ondevicemotion",
+      "ondeviceorientation",
+      "ondeviceorientationabsolute"
+    ],
+    "hasLogin": false,
+    "cookies": [
+      "coinbase_device_id",
+      "advertising_sharing_allowed"
+    ]
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "type": "document",
+      "url": "https://exchange.coinbase.com/"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://exchange.coinbase.com/js/exchange.index.DPmdV0qd.js"
+    },
+    {
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "https://exchange.coinbase.com/css/exchange.index.BTOy4kBM.css"
+    },
+    {
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://exceptions.coinbase.com/sentry/api/4509158357270528/envelope/?sentry_version=7&sentry_key=989e6e01cd68a3b7d0cf99a88f90f856"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://exchange.coinbase.com/js/exchange.trackClick.DMLCM9xy.chunk.js"
+    },
+    {
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api.exchange.coinbase.com/health"
+    },
+    {
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://exchange.coinbase.com/session"
+    },
+    {
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://as.coinbase.com/metrics"
+    },
+    {
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://as.coinbase.com/metrics"
+    },
+    {
+      "method": "GET",
+      "type": "document",
+      "url": "https://coinbase.com/exchange"
+    },
+    {
+      "method": "GET",
+      "type": "document",
+      "url": "https://www.coinbase.com/exchange"
+    },
+    {
+      "method": "POST",
+      "type": "ping",
+      "url": "https://as.coinbase.com/amp"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_KeBctcIT.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_X_2gbQem.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_Bb7DNbik.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_DRruC_XW.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_DmPlOY7q.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_tOuIW6c-.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_Biu7tQDu.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_Bd3apmPg.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BUqbKKal.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BLxXbybU.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BLk9X_r1.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_CXZHQ_eE.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_Cw1dgPBT.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BZwmk9r7.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BMHaYK71.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_Di_iSucJ.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_DHscQiA-.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_B43UO6_7.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BH_G4eMj.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BPyQg2KD.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_C-N4MHjL.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BeyChzLQ.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BkqLL4O_.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_D2jqI2uM.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BPV-Ejzs.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_DYUmctAk.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_B9uFiP9I.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_KnNaooZi.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_3F8JaYxs.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_Cdzbc2Zw.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_D69n21Tp.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_C3yAdwu4.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BDnX6tJg.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_h-Czpgr3.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_96wJbWGY.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_DHJnf77J.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_D4Xd0D3C.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_DAARjWNe.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_CH-OP2hV.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BMm7mSNI.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_D1PQI10R.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_CFAaBzAl.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_C9C_4H2J.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_DogBRrcP.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_DHtpqOlW.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_CtABnR53.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_BsyzJLCj.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://www.coinbase.com/assets/sw-cache/c_C0_sBKBY.js"
+    }
+  ]
+}

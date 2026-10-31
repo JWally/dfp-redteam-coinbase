@@ -1,0 +1,9 @@
+{
+  "name": "dfp-redteam-coinbase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Coinbase anti-bot assessment: no in-house client fingerprinting (analytics-only), HMAC/TOTP API auth on exchange, Cloudflare JS challenge + Turnstile on www; cfsolve analysis grounds the 'what makes a good blocker' lesson (authorized, observed/local, 2026-10-31)",
+  "scripts": { "probe": "node scripts/cb-probe.mjs", "www": "node scripts/cb-www.mjs" },
+  "dependencies": { "playwright": "^1" }
+}
